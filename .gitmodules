@@ -1,0 +1,3 @@
+[submodule "phyclip/evaluation/sugar_crepe"]
+	path = phyclip/evaluation/sugar_crepe
+	url = https://github.com/RAIVNLab/sugar-crepe.git

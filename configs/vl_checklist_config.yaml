@@ -1,0 +1,10 @@
+MAX_NUM: 2000
+MODEL_NAME: "ViLT"
+BATCH_SIZE: 128
+TASK: "itc"
+DATA:
+  TYPES: ["Object/Location/center", "Object/Location/margin", "Object/Location/mid", "Object/Size/large", "Object/Size/medium", "Object/Size/small"]
+  TEST_DATA: ["vg_obj"]   
+OUTPUT: 
+  NUM: 0
+  DIR: "./vl_checklist_results"
