@@ -2,7 +2,15 @@
 
 Official paper found at: [OpenReview](https://openreview.net/forum?id=I3Ct1eDmVI) and [arXiv](https://arxiv.org/abs/2510.08919).
 
-## Paper at a Glance
+PHyCLIP learns a single vision-language space that captures both:
+- **Taxonomic hierarchy** (e.g., a dog is-a mammal) by each hyperbolic space
+- **Cross-family compositionality** (e.g., a dog in a car) via an $\ell_1$-product metric like a Boolean algebra
+
+## Highlights
+
+- A unified geometric framework for hierarchy and compositionality.
+- Drop-in CLIP-style training/evaluation pipeline.
+- Extensive evaluation: zero-shot classification, retrieval, hierarchical classification, VL-Checklist, and SugarCrepe.
 
 ![Concept diagram](concept_diagram.png)
 
